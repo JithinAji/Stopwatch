@@ -1,11 +1,26 @@
-p{
-    font-size: 4rem;
+#hour{
+    font-size: 6rem;
     color: #3887d1;
+}
+
+p{
+    font-size: 1rem;
+    color: black;
+}
+
+#min{
+    font-size: 5rem;
+    color: #3887d1;
+}
+
+#sec{
+    font-size: 2rem;
+    color: black;
 }
 
 *{
     text-align: center;  
-    background-color: #3b4247;  
+    background-color:#e4e9f2;  
 }
 
 button{
@@ -13,7 +28,9 @@ button{
     width: 100px;
     font-weight: bold;
     font-size: large;
-    background-color: white;
+    background-color: #3887d1;
+    color: black;
+    border-radius: 5px;
 
 }
 

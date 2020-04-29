@@ -16,7 +16,7 @@ start.addEventListener("click",function(){
 
     if(start.innerHTML === "Start"){
         start.innerHTML = "Pause";
-        time = window.setInterval(startclock, 1000);
+        time = window.setInterval(startclock, 10);
     }
     else{
         start.innerHTML = "Start";
@@ -37,7 +37,7 @@ reset.addEventListener("click",function(){
 
 var startclock = function(){
     s = s+1; 
-    if(s<60){
+    if(s<101){
         sec.innerHTML = formatted(s);
     }
 
