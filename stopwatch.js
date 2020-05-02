@@ -37,7 +37,7 @@ reset.addEventListener("click",function(){
 
 var startclock = function(){
     s = s+1; 
-    if(s<101){
+    if(s<100){
         sec.innerHTML = formatted(s);
     }
 
